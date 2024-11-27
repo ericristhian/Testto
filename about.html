@@ -1,39 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Página Web</title>
-        <link rel="stylesheet" href="style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+<head>
+  <meta charset="UTF-8">
+  <title>Página Web</title>
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-    <body>
-        <div class="wrapper">
-            <header>
-                <div class="off-screen-menu"></div>
-                <ul class="links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </header>
+<body>
+  <header>
+    <div class="dropdown">
+      <button class="dropbtn">☰</button>
+      <div class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="login.html">Login</a>
+        <a href="contact.html">Contato</a>
+        <a href="cardapio.html">Cardápio</a>
+      </div>
+    </div>
 
-            
-                <article class="main">
-                    <p>Conteúdo do site...</p>
-                </article>
-                <aside class="aside aside1">
-                    <h1>Parte 1</h1>
-                </aside>
-                <aside class="aside aside2">
-                    <h1>Parte 2</h1>
-                </aside>
-            
+    <div class="menu-pesquisa">
+      <form action="#" method="post">
+        <input type="text" name="search" id="search" placeholder="Faça sua busca">
+      </form>
+      <i class="fa fa-user-o" aria-hidden="true"></i>
+      <i class="fa fa-user-o" aria-hidden="true"></i>
+    </div>
 
-            <footer>
-                <div class="copyright">Copyright</div>
-                <div class="socialMedia">Mídia Social</div>
-            </footer>
-        </div>
-    </body>
+  </header>
+
+
+  <footer>
+    <div class="footer-container">
+      <!-- <div class="imagem-footer" img src="img/Redes Socias.png" class="image" alt="redes-sociais"> -->
+      <div class="footer-item">Copyright</div>
+      <div class="footer-item">Bandeiras</div>
+      <div class="footer-item">Mídia Social</div>
+    </div>
+  </footer>
+
+  </div>
+</body>
+
 </html>

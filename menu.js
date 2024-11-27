@@ -1,8 +1,4 @@
-const menuButton = document.querySelector(".menu-button button");
-
-const menuList = document.querySelector(".menu-list");
-
-menuButton.addEventListener("click", function() {
-
-    menuList.classList.toggle("show");
-});  
+function toggleMenu(){
+    const links = document.querySelector('.links');
+    links.classList.toggle('active');
+}
